@@ -142,3 +142,13 @@ Once you have authenticated, click in the `/work` directory and you should see a
 To stop the container once you are done with the lab just press `Ctrl + C` twice. This will also delete the container.
  
 ### And... that's it! Have fun deploying a Deep Learning model! :)
+
+### if docker returns ERROR: port is already allocated, do the following (https://simplernerd.com/docker-port-allocated/)
+to start and stop the applications: docker-compose 
+to list all running containers: docker-compose ps 
+
+docker-compose down
+docker container ls -a
+docker stop <CONTAINER ID>
+docker rm <CONTAINER ID>
+        
