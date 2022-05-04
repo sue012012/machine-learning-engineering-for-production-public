@@ -153,7 +153,7 @@ docker-compose down
 
 docker container ls -a
 
-docker stop <CONTAINER ID>
+docker stop CONTAINER_ID
     
-docker rm <CONTAINER ID>
+docker rm CONTAINER_ID
         
